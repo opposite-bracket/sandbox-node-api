@@ -7,7 +7,7 @@
 # will ssh into running server)
 #   docker run -it --rm -p 3000:3000 --name napi sandbox-napi-img /bin/sh
 # apibuilder image is 948MB
-# image running api is ???MB
+# image running api is 123MB
 
 FROM node:14 AS apibuilder
 ADD . /app
